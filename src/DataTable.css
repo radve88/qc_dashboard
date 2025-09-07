@@ -1,0 +1,30 @@
+/* Missing values */
+td.missing {
+  background-color: lightyellow;
+  color: black;
+}
+
+/* Critical errors (e.g., impossible values, canopy > 100) */
+td.error {
+  background-color: salmon;
+  color: white;
+  font-weight: bold;
+}
+
+/* Warnings (e.g., borderline height, etc.) */
+td.warning {
+  background-color: orange;
+  color: white;
+}
+
+/* Duplicate rows */
+td.duplicate {
+  background-color: plum;
+  color: black;
+}
+
+/* Normal values */
+td.ok {
+  background-color: white;
+  color: black;
+}
